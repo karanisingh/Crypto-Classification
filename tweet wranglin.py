@@ -3,6 +3,9 @@
 Created on Thu Dec 16 17:49:42 2021
 
 @author: vbmsi
+
+The purpose of this file is to take the raw data (millions of tweets) and
+condense it into summaries for each day with the relavant data
 """
 
 import pandas as pd

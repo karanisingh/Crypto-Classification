@@ -2,7 +2,12 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+The purpose of this file is to use the snscrape scraping tool for social networking services.
+snscrape's documentation can be found at https://github.com/JustAnotherArchivist/snscrape
+
+This file uses multithreading (in a very convoluted way) to scrape many attributes of 
+tweets containing'bitcoin' or '$BTC' in them from the past 3 years. 
+The final data is exported as a CSV file
 """
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
