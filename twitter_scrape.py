@@ -154,5 +154,5 @@ joined_tweets = pd.DataFrame(joined_tweets,
                                    ])
 
 # Extract as csv to then use for data wrangling
-joined_tweets.to_csv('test.csv')
+joined_tweets.to_csv('tweets.csv')
 
