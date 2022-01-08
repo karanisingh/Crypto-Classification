@@ -11,7 +11,7 @@ condense it into summaries for each day with the relavant data
 import pandas as pd
 
 # Import the raw data
-tweets = pd.read_csv('test.csv')
+tweets = pd.read_csv('tweets.csv')
 
 # Remove unnecessary columns
 tweets.drop(['Retweeted?', 'Quoted?', 'Source'],
