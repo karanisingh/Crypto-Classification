@@ -5,3 +5,9 @@ This project was created for the class CS 4501: Statistical Learning and Graphic
 ## Introduction
 
 In stock market investing, the Efficient Market Hypothess states that markets are efficient to an extent that investment strategies are futile in making gains beyond where the overall market moves. Cryptocurrency markets have significantly less data and their efficiency is less tested. This project aims to challenge the efficiency of the Bitcoin market by testing its predictability, specifically, using public sentiment on social media as a predictor. *Can daily price changes in Bitcoin be predicted by twitter sentiment from the previous day?*
+
+## Data
+
+Raw data was collected by using **snscrape** a social networking site scraper (https://github.com/JustAnotherArchivist/snscrape). This collected 470,000 tweets containing 'bitcoin' or '$BTC'. Also used was daily price chaing collected from www.statista.com. 
+
+After data manipulation, our final data included the average number of 
